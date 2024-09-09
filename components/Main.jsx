@@ -97,7 +97,7 @@ function Test() {
               </p>
               <p className="text-white mt-5">
                 With truly integrated logistics there’s always a new way to keep
-                your goods moving and your business growing.
+                your goods moving and your business growing!.
               </p>
             </div>
             <div className="h-full md:flex w-full relative hidden justify-center">
