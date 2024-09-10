@@ -17,7 +17,7 @@
 
 @media(min-width:1200px){
   #mainbox{
-    animation: growbox1 1s ease-in-out forwards;
+    animation: growbox1 2s ease-in-out forwards;
   }
 }
 
