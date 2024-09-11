@@ -89,7 +89,7 @@ function Test() {
         </div>
 
         <div id="mainbox" className="flex mt-5 flex-row w-full relative">
-          <img className="object-cover z-0" src="videos/bg.jpg" alt="" />
+          <img className="object-cover z-0" src="videos/bg.jpg" loading="lazy" alt="" />
           <div className="absolute flex justify-center items-center h-full w-full">
             <div className="h-full w-full flex flex-col text-left bg-black bg-opacity-40 p-5">
               <p className="text-white mt-10 font-sans text-4xl">
