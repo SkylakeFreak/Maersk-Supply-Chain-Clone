@@ -93,7 +93,7 @@ function Test() {
           <div className="absolute flex justify-center items-center h-full w-full">
             <div className="h-full w-full flex flex-col text-left bg-black bg-opacity-40 p-5">
               <p className="text-white mt-10 font-sans text-4xl">
-                See How Truly Integrated Logistics Delivers
+                See How Truly Integrated Logistics Delivers!
               </p>
               <p className="text-white mt-5">
                 With truly integrated logistics there's always a new way to keep
