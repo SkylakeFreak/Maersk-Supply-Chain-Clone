@@ -5,9 +5,9 @@ import img1 from "../public/videos/maersksmall.png"
 function Second() {
   return (
     <div className='h-auto -mt-10 md:mt-0'>
-        <div className='flex flex-col-reverse md:flex-row p-2 md:p-10'>
-            <div className='flex-1 flex items-center justify-center p-2 md:mr-2 xl:mr-10'>
-                <div className=''>
+        <div className='flex flex-col-reverse lg:flex-row p-2 md:p-10 xl:ml-20 lg:gap-10 xl:gap-20 xl:mr-20'>
+            <div className='flex-1 flex items-center justify-left md:justify-center p-2 md:mr-2 xl:mr-10'>
+                <div className='p-5 md:p-0'>
                     <h1 className='font-sans text-3xl md:text-4xl mb-4'>The Network of the Future</h1>
                     <div className='gap-4 flex flex-col max-w-[600px]'>
                     <p>Learn more about the Network of the Future, an innovative network powered by leaner loops with fewer port calls per service, an extensive shuttle network, and industry-leading hubs.</p>
@@ -22,8 +22,8 @@ function Second() {
                     
                 </div>
             </div>
-            <div className='flex-1 items-center flex justify-center p-2'>
-                <Image className=' md:max-w-[350px] xl:max-w-[450px] mb-4 md:mb-0' src={img1}></Image>
+            <div className='flex-1 items-center flex justify-end md:justify-center p-2'>
+                <Image className=' md:max-w-[550px] lg:max-w-[450px] xl:max-w-[450px] mb-4 md:mb-0' src={img1}></Image>
             </div>
 
         </div>

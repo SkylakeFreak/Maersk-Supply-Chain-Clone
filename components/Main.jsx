@@ -2,7 +2,7 @@
 import React, { useState, useRef } from "react";
 import Menu from "../components/Menu"
 
-function Test() {
+function Test(scrollpos) {
   const [check, setcheck] = useState(true);
   const [tracking, settracking] = useState(true);
   const [schedules, setschedules] = useState(false);
@@ -10,12 +10,12 @@ function Test() {
   const [menuslider, setmenuslider] = useState(false);
   const [close, setclose] = useState(false);
   return (
-    <div className="flex w-full md:mb-0 mb-10">
-      <div className="flex flex-col w-full">
+    <div className="flex w-full md:mb-0 mb-10 ">
+      <div className="flex flex-col h-full items-center justify-center w-full ">
         {close && (
           <div
             id="togglemenu"
-            className={`bg-black fixed text-white h-full w-[80vw] right-0 z-20 opacity-90 ${
+            className={`bg-black fixed text-white h-full w-[80vw] right-0 top-0 z-20 opacity-90 ${
               menuslider ? "animate-slideIn" : "animate-slideOut"
             }`}
           >
@@ -41,20 +41,20 @@ function Test() {
           </div>
         )}
 
-        <div className="flex flex-col mt-4 p-5">
-          <div id="logo" className="flex flex-row h-10 w-full">
+        <div className="flex flex-col p-5 w-full fixed top-0 left-0 z-10 bg-white">
+          <div id="logo" className="flex flex-row w-full">
             <img className="h-10 w-60" src="/videos/logo.png" alt="" />
             <div className="flex w-full ml-10 mr-10">
               <div
                 id="logo"
-                className="hidden xl:flex justify-start gap-10 w-full"
+                className="hidden xl:flex justify-start items-center gap-10 w-full"
               >
                 <p>Price</p>
                 <p>Book</p>
                 <p>Tracking</p>
                 <p>Schedules</p>
                 <p className="text-nowrap">Logistic Solutions</p>
-                <div className="flex justify-end gap-10 w-full">
+                <div className="flex justify-end items-center gap-10 w-full">
                   <p>Price</p>
                   <p>Book</p>
                   <p>Tracking</p>
@@ -89,7 +89,7 @@ function Test() {
           </div>
         </div>
 
-        <div id="mainbox" className="flex mt-5 flex-row w-full relative">
+        <div id="mainbox" className="flex flex-row w-full mt-20 relative">
           <img className="object-cover z-0" src="videos/bg.jpg" alt="" />
           <div className="absolute flex justify-center items-center h-full w-full">
             <div className="h-full w-full flex flex-col text-left bg-black bg-opacity-40 p-5">
