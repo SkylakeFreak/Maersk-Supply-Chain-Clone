@@ -15,7 +15,7 @@ function Second() {
               <p>
                 Learn more about the Network of the Future, an innovative
                 network powered by leaner loops with fewer port calls per
-                service, an extensive shuttle network, and industry-leading
+                service, an extensive shuttle network and industry-leading
                 hubs.
               </p>
               <p>
