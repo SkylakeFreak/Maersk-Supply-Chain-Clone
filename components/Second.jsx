@@ -9,7 +9,7 @@ function Second() {
         <div className="flex-1 flex items-center justify-left md:justify-center p-2 md:mr-2 xl:mr-10">
           <div className="p-5 md:p-0">
             <h1 className="font-sans text-3xl md:text-4xl mb-4">
-              The Network of the Future!
+              The Network of the Future
             </h1>
             <div className="gap-4 flex flex-col max-w-[600px]">
               <p>
